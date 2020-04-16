@@ -1,0 +1,166 @@
+body {
+
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+  color: #222831
+
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+
+}
+
+/* ________________HEADERS________________ */
+
+h1 {
+  color: #f3c623;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em ;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #f3c623;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+h3 {
+  color: #844685;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #E0E0E0 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 80px auto;
+
+}
+
+p {
+  line-height: 2;
+
+}
+
+a {
+  color: #f3c623;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: white;
+}
+/* ________________CONTAINERS________________ */
+
+.top-container {
+  background-color: #10375c;
+  padding-top: 140px;
+  position: relative;
+
+}
+
+.middle-container {
+background-color: #faf4ff;
+padding: 80px 0;
+
+}
+
+.bottom-container {
+  background-color: #10375c;
+  padding: 50px 0 20px;
+
+}
+
+.contact-me {
+  height: 350px;
+
+
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+.skill-row  {
+  margin: 80px auto 80px auto;
+  text-align: left;
+  width: 50%;
+
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75em;
+  padding: 20px 0;
+}
+
+/* ________________ELEMENTS________________ */
+
+.top-cloud {
+  position: relative;
+  right: 400px;
+  top: 200px;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 400px;
+  position: relative;
+
+}
+
+.btn {
+	background:linear-gradient(to bottom, #10375c 5%, #23629e 100%);
+	background-color:#10375c;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	padding: 8px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #304a8c;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #23629e 5%, #10375c 100%);
+	background-color:#23629e;
+}
+.btn:active {
+	position:relative;
+	top:5px;
+}
+
+
+.top-title {
+  padding-bottom: 50px;
+}
+
+/* ________________IMAGES________________ */
+
+
+.computer {
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+
+}
+
+.person {
+  background-color: pink;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+  width: 25%;
